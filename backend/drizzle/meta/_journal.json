@@ -1,0 +1,48 @@
+{
+  "version": "6",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1779616781746,
+      "tag": "0000_rich_steve_rogers",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1780663879573,
+      "tag": "0001_heavy_supernaut",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1780664626680,
+      "tag": "0002_moaning_triton",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "6",
+      "when": 1780667661154,
+      "tag": "0003_odd_catseye",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "6",
+      "when": 1782302086441,
+      "tag": "0004_purple_butterfly",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "6",
+      "when": 1782643744046,
+      "tag": "0005_jittery_maelstrom",
+      "breakpoints": true
+    }
+  ]
+}

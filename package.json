@@ -1,0 +1,19 @@
+{
+  "name": "glowup-ai-platform",
+  "version": "1.0.0",
+  "private": true,
+  "description": "GlowUp AI Platform - Root workspace commands for Hono Backend API (Mobile App Only)",
+  "scripts": {
+    "build": "cd backend && bun install --frozen-lockfile",
+    "start": "cd backend && bun run start",
+    "dev": "cd backend && bun run dev",
+    "db:push": "cd backend && bun run db:push",
+    "db:generate": "cd backend && bun run db:generate",
+    "db:studio": "cd backend && bun run db:studio",
+    "seed": "cd backend && bun run seed:beach",
+    "seed:outdoor": "cd backend && bun run seed:outdoor",
+    "docker:prod": "cd backend && docker compose -f docker-compose.production.yml up -d --build",
+    "docker:down": "cd backend && docker compose -f docker-compose.production.yml down",
+    "test:api": "cd backend && bun run test:api"
+  }
+}

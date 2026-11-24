@@ -1,0 +1,18 @@
+# Secrets and local environment
+.env
+.env.production
+.env*.local
+**/.env
+**/.env.production
+**/.env*.local
+google-services.json
+GoogleService-Info.plist
+
+# Dependencies and build output
+node_modules
+.expo
+dist
+build
+coverage
+*.log
+.DS_Store
